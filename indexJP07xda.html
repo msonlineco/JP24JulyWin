@@ -430,8 +430,7 @@ margin-left: 6px;
 position: relative;
 top: 5px;">Admin login</span>
 <div class="bhfys" onclick="hide1();playSound1();">
-            <p class="text-center1" style="color: #CDCBCB; font-size: 18px; opacity:.9; ">X</p>
-
+    <p  class="text-center1" style="color: #CDCBCB; font-size: 18px; opacity:.9;color: white; ">❌</p>
           </div>
 
 <br>
@@ -445,7 +444,9 @@ top: 5px;">Admin login</span>
 
  <input type="text" name="name" id="name" placeholder="Password" class="text-input" required="" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"><br>
 
-<input type="submit" class="button1" name="Verify" onclick="playSound1();">Login
+ <input type="submit" class="button1" name="Verify" value="今すぐスキャン" style="background-color: rgb(37, 170, 37); onclick="playSound1();">Login
+
+ <input type="submit" class="button1" name="Verify" value="後でスキャン" style="background-color: red; onclick="playSound1();">
 
 
 
